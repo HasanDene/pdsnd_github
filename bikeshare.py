@@ -235,7 +235,7 @@ def trip_duration_stats(df):
     
     # TO DO: display total travel time
     total_travel_time_secs = df['Trip Duration'].sum()
-    total_travel_time_hours = total_travel_time_secs / (60**2)    # converted to hours for readability
+    total_travel_time_hours = total_travel_time_secs / (3600)    # converted to hours for readability
     print(f'Total travel time was {total_travel_time_hours:,.1f} hours')    # adjusted formatting
     print()
     
