@@ -121,14 +121,8 @@ def time_stats(df):
         else:
             print('No data available to determine the most popular month.')    
     # except statements to advise on specific exceptions
-    except KeyError:
-        print('Cannot display data - column is missing.')
-    except IndexError:
-        print('Cannot display data - no available values after filtering.')
-    except (TypeError, ValueError):
-        print('Cannot display data - data is not in expected format.')
-    except Exception as e:
-        print(f'Cannot display data due to an unexpected error: {e}.')
+    except Exception as e:      # updated this to only cover general errors
+        print(f'Cannot display data due to an error: {e}.')
     print()
 
     # Display the most common day of the week; included try/except to counter potential errors
