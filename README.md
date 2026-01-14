@@ -11,6 +11,9 @@ The project creates an interactive user experience in the terminal, prompting th
 It then displays a range of output metrics on popular travel times and station, travel duration and users.
 Finally, it gives the user to see rows of raw data, then an option to restart the process.
 
+## Language used
+This project was written in python.
+
 ## Files used
 Used multiple csv files of city-specific bikeshare data.
 
