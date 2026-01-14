@@ -14,6 +14,9 @@ Finally, it gives the user to see rows of raw data, then an option to restart th
 ## Files used
 Used multiple csv files of city-specific bikeshare data.
 
+## Cities covered
+This project covered New York City, Chicago and Washington DC.
+
 ## Credits
 The project drew on various reddit and stackoverflow posts to help create the code.
 
